@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("samurai.jpg") ;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav{
+    margin-left:  36%;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.topnav a{
+    padding: 10px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-bottom:5px solid transparent;
+    color: white;
+}
+.topnav :hover{
+    color: dimgrey;
+}
+.box{
+    text-align: center;
+    color: cornsilk;
+    border: transparent;
+    padding: 10px;
+    margin-top: 50px;
+}
+.box a{
+    color: white ;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium' ;
+}
+.box a:hover{
+    color: darkslategrey;
+}
+.box .ft{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+.box i{
+    border:5px solid transparent ;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 12px;
+    margin: 5px;
+    background:transparent;
+}
+.box #mysearchbar{
+    border: 12px solid darkgrey;
+    border-radius: 5px;
+    width: 50%;
+    background: darkgrey;
+    color: white;
+}
+.box h1{
+    color: rgb(9, 115, 202);
+    font-family: 'Gill Sans MT';
+}
+.right{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: linen;
+}
+.inputs input[type=text], input[type=password]{
+      border: 5px solid white;
+      border-radius: 5px;
+      margin: 3px;
+      width: 30%;
+}
+.r_m_f_p a{
+    color: gainsboro;
+
+}
+.r_m_f_p a:hover{
+    color: darkslateblue;
+}
+.enter{
+    border: 8px solid transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font: 'Gill Sans MT';
+    font-size:20px ;
+}
+.enter:hover{
+    background: lightgreen;
+}
+.first{
+    background: darkgray;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
